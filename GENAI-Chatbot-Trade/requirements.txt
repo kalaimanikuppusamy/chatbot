@@ -1,0 +1,33 @@
+# Core
+langchain==0.2.14
+langchain-core==0.2.35
+langchain-community==0.2.12
+langgraph==0.0.68
+
+# Vector stores & retrievers
+faiss-cpu==1.8.0
+rank-bm25==0.2.2
+
+# Embeddings & models
+huggingface-hub==0.23.5
+sentence-transformers==3.0.1
+langchain-huggingface==0.0.3
+langchain-openai==0.1.14
+openai==1.35.13
+
+# NLP
+spacy==3.7.2
+# Make sure to install the English model after requirements:
+# python -m spacy download en_core_web_sm
+
+# PDF loader
+pypdf==4.2.0
+
+# Utilities
+numpy==1.26.4
+typing_extensions==4.12.2
+pydantic==2.7.1
+
+#Step to follow
+#pip install -r requirements.txt
+#Run in terminal python -m spacy download en_core_web_sm
